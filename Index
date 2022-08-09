@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <title>NGST 2L</title>
+  <link rel="icon" href="../programme_enterprise/img/logo_bar.png" type="image/x-icon">
+  
+  <meta name="theme-color" content="goldenrod">
+  <meta name="msapplication-navbutton-color" content="goldenrod">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+</head>
+<body>
+    <!-- Header -->
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="#hero">
+              <div class="logo">
+                <img src="../programme_entreprise/img/logo3.jpg">
+              </div>
+            </a>
+            
+          </div>
+          <div class="nav-list">
+            <div class="hamburger">
+              <span class="nav" style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
+              </div>
+              
+            <ul>
+              <li><a href="#hero" data-after="Home">Acceil</a></li>
+              <li><a href="#services" data-after="Service">Services</a></li>
+              <li><a href="#projects" data-after="Projects">Domaines</a></li>
+              <li><a href="#about" data-after="About">Fondateur</a></li>
+              <li><a href="#contact" data-after="Contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="sidenav" id="mysidenav">
+        <ul>
+            <li><a href="#hero" data-after="Home">Acceil</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#projects" data-after="Projects">Domaines</a></li>
+            <li><a href="#about" data-after="About">Fondateur</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+          <a href="javascript:void(0)" class="closebtn" onclick="closenav()">&times;</a>
+    </div>
+    </section>
+    <!-- End Header -->
+  
+  
+    <!-- Hero Section  -->
+    <section id="hero">
+      <div class="hero container">
+        <div>
+          <h1>Bienvenue <span></span></h1>
+          <h1>Sur<span></span></h1>
+          <h1>NGST 2L<span></span></h1>
+          <a href="#projects" type="button" class="cta"> Competences</a>
+        </div>
+        <div class="text">
+          <p>Notre potentiel est notre performance et nous sommes capable de bien faire avec les moyens
+            que nous disposons et de les tranformer en atout professionnel un savoir-faire suffisamment maitrisé
+            pour être bien transmissible tel est notre credo.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section  -->
+  
+    <!-- Service Section -->
+    <section id="services">
+      <div class="services container">
+        <div class="service-top">
+          <h1 class="section-title">Preséntation <span> NGST</span>2L</h1>
+          <p>La denomination de notre entrprise nouvel génération services transports 
+            levages et logistique sous l’abrege NGST 2L conformément aux actes uniformes 
+            relatifs des sociéteés commerciales a pour but la création d‘emploie et la formation des 
+            jeunes dans ce millieu et aussi d’accompgner les décideurs et les entrprises pour la bonne
+            marche de leurs projets.c’est une équipe très jeunes et ambitieuse qui s‘active dans plusieurs domaines de competence et savoir-faire
+            au travail avec une ressource humaine forte et expérimenté.la base de notre équipe est locale NGST 2L participe 
+            au développement de notre pays.
+          </p>
+        </div>
+        <div class="service-bottom">
+          <div class="service-item">
+            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+            <h2>Presentation de service:</h2>
+            <p>mise à disposition de main d’oeuvre qualifié</p>
+            <p>Gestion de personnel</p>
+            <p>Paie personnel</p>
+            <p>Environnement et ces composantes</p>
+            <p>Gestion de personnelet de projets</p>
+          </div>
+          <div class="service-item">
+            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+            <h2>Domaines de compétences:</h2>
+           <p>Location Grue Mobile</p>
+           <p>Manutension</p>
+           <p>Calorifuge</p>
+           <p>Caoutchoutage (collage tapis-Revêtement)</p>
+           <p>Prestation de services</p>
+           <p>Mecanique Général</p>
+           <p>Tôlerie-Sablage-Peinture</p>
+           <p>Chaudronnerie</p>
+           <p>Echafaudage</p>
+           <p>Génie civil</p>
+           <p>Commerce et Transport</p>
+          </div>
+          <div class="service-item">
+            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+            <h2>Environnememt et Sécurité:</h2>
+            <p>Production de plants et fleur ornementales</p>
+            <p>Amenagement et suivi des espace verts</p>
+            <p>Réhabilitation des sites minier</p>
+            <p>Nettoyage:bureau,maison,espace et lieu de travail(housekeep ping)</p>
+          </div>
+    </section>
+    <!-- End Service Section -->
+  
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="projects container">
+        <div class="projects-header">
+          <h1 class="section-title">Les travaux <span>recentes</span></h1>
+        </div>
+        <div class="all-projects">
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Domaine de levages et transports</h1>
+              <h2>PROJEST</h2>
+              <p>nous assurons </p>
+            </div>
+            <div class="project-img">
+              <img src="./img/logistique.jpg" alt="img">
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Project </h1>
+              <h2>Coding is Love</h2>
+              <p>l’algorithme utiliser pour developper ce site est tres complexe et difficille à maitriser.
+                 Ile faut être un proffessionnele pour y parvenir.
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./img/logistique1.jpg" alt="img">
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Project </h1>
+              <h2>Coding is Love</h2>
+              <p>l‘algorithme utiliser pour developper ce site est tres complexe et difficille à maitriser.
+                Ile faut être un proffessionnele pour y parvenir.</p>
+            </div>
+            <div class="project-img">
+              <img src="./img/logistique2.jpg" alt="img">
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Project </h1>
+              <h2>Coding is Love</h2>
+              <p>l’algorithme utiliser pour developper ce site est tres complexe et difficille à maitriser.
+                Ile faut être un proffessionnele pour y parvenir.</p>
+            </div>
+            <div class="project-img">
+              <img src="./img/logistique3.jpg" alt="img">
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Project 5</h1>
+              <h2>Coding is Love</h2>
+              <p></p>
+            </div>
+            <div class="project-img">
+              <img src="./img/logistique4.jpg" alt="img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+  
+    <!-- About Section -->
+    <section id="about">
+      <div class="about container">
+        <div class="col-left">
+          <div class="about-img">
+            <img src="./img/img-2.png" alt="img">
+          </div>
+        </div>
+        <div class="col-right">
+          <h1 class="section-title"> <span>Monsieur  </span>Modou Thiam<span></span></h1>
+          <h2>Fondateur de NGST 2L</h2>
+          <p></p>
+          <a href="#" class="cta">Download Resume</a>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+  
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact container">
+        <div>
+          <h1 class="section-title">Contact et <span>info</span></h1>
+        </div>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+            <div class="contact-info">
+              <h1>Phone</h1>
+              <h2>+221 77 176 86 26</h2>
+              <h2>+221 77 750 82 96</h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+            <div class="contact-info">
+              <h1>Email</h1>
+              <h2>ngst2l@gmail.com</h2>
+              <h2></h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+            <div class="contact-info">
+              <h1>Address</h1>
+              <h2>Rufisque Quartier Colobane Nord</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+  
+    <!-- Footer -->
+    <section id="footer">
+      <div class="footer container">
+        <div class="brand">
+          <div class="logo">
+            <img src="../programme_entreprise/img/logo3.jpg">
+          </div>
+
+        </div>
+        <div class="social-icon">
+          <div class="social-item">
+            <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+          </div>
+          <div class="social-item">
+            <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/whatsapp-new.png" /></a>
+          </div>
+          <div class="social-item">
+            <a href="https://www.linkedin.com/in/ngst2l-undefined-7b479a243/"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" /></a>
+          </div>
+          <div class="social-item">
+            <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+          </div>
+        </div>
+        <p>Copyright © 2020 .Developped by Erézia arc</p>
+      </div>
+    </section>
+    <!-- End Footer -->
+   
+
+  <span style="font-size:30px;cursor:pointer;" onclick="openNav()"></span>
+  <script>
+function openNav() {
+  document.getElementById("mysidenav").style.height="330px";
+}
+function closenav() {
+  document.getElementById("mysidenav").style.height="0";
+}
+  </script>
+    <script src="./app.js"></script>
+
+
+   </body>
+   </html>
